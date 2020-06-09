@@ -1,0 +1,21 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "Proyecto para guardar apis con nodejs como servidor",
+  "main": "build/app.js",
+  "scripts": {
+    "node": "node",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "typescript": "^3.9.2"
+  }
+}
